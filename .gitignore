@@ -1,0 +1,10 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore config files
+cfg/.config.json
+
+# Ignore virtual environments
+venv/
+.env/
