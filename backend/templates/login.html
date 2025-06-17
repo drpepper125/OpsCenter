@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <title>OpsCenter Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card">
+            <h2>Welcome to OpsCenter</h2>
+            <form action="/login" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Your username" required />
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Your password" required />
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
