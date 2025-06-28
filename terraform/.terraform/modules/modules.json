@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"ec2_instance_mods","Source":"./mods/ec2","Dir":""},{"Key":"test_ec2_instance_mods","Source":"./mods/ec2","Dir":""}]}
